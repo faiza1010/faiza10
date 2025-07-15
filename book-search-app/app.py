@@ -20,7 +20,7 @@ st.divider()
 @st.cache_data
 def load_books():
     try:
-        with open('data/books.json', 'r') as f:
+        with open('../data/books.json', 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         st.error("File data buku tidak ditemukan!")
