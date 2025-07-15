@@ -1,3 +1,4 @@
 scrapy
 streamlit
 nltk
+pandas
